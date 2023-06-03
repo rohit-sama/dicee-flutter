@@ -44,7 +44,7 @@ class _DicePageState extends State<DicePage> {
               child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.red[700],
-                      padding: EdgeInsets.all(10)),
+                      padding: EdgeInsets.all(0)),
                   onPressed: () {
                     setState(() {
                       var hello = Random();
@@ -59,7 +59,7 @@ class _DicePageState extends State<DicePage> {
               child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.red[700],
-                    padding: EdgeInsets.all(10),
+                    padding: EdgeInsets.all(0),
                   ),
                   onPressed: () {
                     setState(() {
